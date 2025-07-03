@@ -19,6 +19,7 @@ int main(int argc, char *argv[]) {
       point_cloud,
       true); //两个参数分别是：输入的点云，和是否对八叉树构建的结果进行可视化
   
+  //提取平面特征
   std::vector<std::shared_ptr<OctreePlane>> octree_planes_get;
   plane_octree.OctreePlaneExtraction(
       octree_planes_get,true); //两个参数分别是：存放提取的平面特征的数据，和是否对平面提取的结果进行可视化
