@@ -18,6 +18,9 @@ make
 ```
 
 #### 3. Run
+![image](https://github.com/user-attachments/assets/447d453b-ae7a-483e-a558-3aab54a877a0)
+![image](https://github.com/user-attachments/assets/f9acd0d9-839f-4e34-b164-4af9e5f10853)
+
 ```
 ./plane_octree 0.pcd
 #result
