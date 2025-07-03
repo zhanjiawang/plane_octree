@@ -19,7 +19,7 @@ make
 
 #### 3. Run
 ![image](https://github.com/user-attachments/assets/447d453b-ae7a-483e-a558-3aab54a877a0)
-![image](https://github.com/user-attachments/assets/f9acd0d9-839f-4e34-b164-4af9e5f10853)
+![image](https://github.com/user-attachments/assets/c1afba98-3aea-4337-aeaf-49fc28e4a0f5)
 
 ```
 ./plane_octree 0.pcd
