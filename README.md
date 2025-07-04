@@ -11,7 +11,6 @@ This is an algorithm that constructs octree and extracts planar features at the 
 #### 2. Build
 ```
 cd ${YOUR_PROJECT_DIR}
-mdkir build
 cd build
 cmake ..
 make
