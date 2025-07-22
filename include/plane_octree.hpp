@@ -170,7 +170,8 @@ public:
 
     pcl::PointCloud<pcl::PointXYZRGB>::Ptr point_cloud_octree_view(
         new pcl::PointCloud<pcl::PointXYZRGB>);
-
+      
+    point_cloud_octree_data_ = std::make_shared<OctreeNode>();
     std::shared_ptr<OctreeNode> point_cloud_octree_ptr =
         point_cloud_octree_data_;
     //把每一个点加入八叉树的同时构建八叉树
@@ -576,8 +577,7 @@ public:
     }
   }
 
-  std::shared_ptr<OctreeNode> point_cloud_octree_data_ =
-      std::make_shared<OctreeNode>();
+  std::shared_ptr<OctreeNode> point_cloud_octree_data_;
 
 private:
   float octree_resolution_ = 0.5; //八叉树的分辨率
